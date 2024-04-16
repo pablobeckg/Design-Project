@@ -89,6 +89,7 @@ header {
     background-repeat: no-repeat;
     height: 100vh;
     width: 60vw;
+    overflow: hidden;
 }
 
 .image-right img {
