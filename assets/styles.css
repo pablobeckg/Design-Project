@@ -1,0 +1,154 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "roboto-semibold";
+}
+
+body {
+    width: 100vw;
+}
+
+@font-face {
+    font-family: "roboto-semibold";
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto-light";
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+/* header */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.text-left {
+    height: 100%;
+    width: 50%;
+    padding: 5vh 0 0 6vw ;
+    position: relative;
+}
+
+.left-up h2 {
+    font-size: 2.4rem;
+}
+
+.left-up h5 {
+    font-size: 1.2rem;
+    font-family: "roboto-regular";
+}
+
+.left-down {
+    position: absolute;
+    bottom: 8vh;
+    padding-left: 4vw;
+}
+
+.left-down h1 {
+    font-size: 5.4rem;
+    margin-bottom: 1.8rem;
+}
+
+.parragraph {
+    font-size: 1.8rem;
+    font-family: "roboto-light";
+    line-height: 3.5rem;
+}
+
+.left-down h4 {
+    margin-top: 6vh;
+    font-size: 1.4rem;
+    font-family: "roboto-bold";
+    color: #FF3571;
+}
+
+.image-right {
+    background-image: url(./images/ilustracion1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 60vw;
+}
+
+.image-right img {
+    height: 100%;
+    animation: move 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+/* section images */
+
+.image-container {
+    height: auto;
+    width: 100%;
+    padding-top: 12vh;
+}
+
+.image-container img {
+    width: 100vw;
+}
+
+/* section ideas */
+
+.second-sec {
+    height: 100vh;
+    width: 100vw;
+}
+
+.ideas-container {
+    padding: 30vh 24vw 0 10vw;
+}
+
+.ideas-top {
+    display: flex;
+    gap: 8vw;
+    padding-bottom: 16vh;
+}
+
+.title {
+    font-size: 3.8rem;
+}
+
+.ideas-top h2 {
+    width: 20vw;
+}
+
+.ideas-top p {
+    width: 50vw;
+}
+
+.ideas-container>h2 {
+    width: 50vw;
+    padding-left: 4vw;
+}
+
